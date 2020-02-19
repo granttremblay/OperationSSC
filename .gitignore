@@ -1,3 +1,6 @@
+# The FTM files are well over 2GB. So let's just pull them locally
+*.ftm
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +130,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+juda_byteshift_memo_data/2005_349_0435_349_1413_Dump_EM_48402
+juda_byteshift_memo_data/2005_349_1411_349_2315_Dump_EM_48737
+juda_byteshift_memo_data/2005_349_2313_350_0415_Dump_EM_48922
