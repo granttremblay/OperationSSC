@@ -37,6 +37,7 @@ def extract_string(index):
     from DPP shared memory.
     index = item ordinal
     """
+    # Reads up to byte_count bytes from the shared memory segment starting at offset and returns them as a bytes object (which is the same as a str under Python 2).
     tmdata = dpp_shm.read(TMData_size, index * TMData_size)
     # Extract one TMData.  Most entries here are undefined
     (yll, yul, rll, rul, conval, dnval, flag, tag, cstrval, clabel,
